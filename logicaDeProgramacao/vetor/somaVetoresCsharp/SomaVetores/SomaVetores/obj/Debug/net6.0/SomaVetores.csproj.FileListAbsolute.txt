@@ -1,0 +1,15 @@
+C:\Users\kauan.mcvquaresma\source\repos\SomaVetores\SomaVetores\obj\Debug\net6.0\SomaVetores.csproj.AssemblyReference.cache
+C:\Users\kauan.mcvquaresma\source\repos\SomaVetores\SomaVetores\obj\Debug\net6.0\SomaVetores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kauan.mcvquaresma\source\repos\SomaVetores\SomaVetores\obj\Debug\net6.0\SomaVetores.AssemblyInfoInputs.cache
+C:\Users\kauan.mcvquaresma\source\repos\SomaVetores\SomaVetores\obj\Debug\net6.0\SomaVetores.AssemblyInfo.cs
+C:\Users\kauan.mcvquaresma\source\repos\SomaVetores\SomaVetores\obj\Debug\net6.0\SomaVetores.csproj.CoreCompileInputs.cache
+C:\Users\kauan.mcvquaresma\source\repos\SomaVetores\SomaVetores\bin\Debug\net6.0\SomaVetores.exe
+C:\Users\kauan.mcvquaresma\source\repos\SomaVetores\SomaVetores\bin\Debug\net6.0\SomaVetores.deps.json
+C:\Users\kauan.mcvquaresma\source\repos\SomaVetores\SomaVetores\bin\Debug\net6.0\SomaVetores.runtimeconfig.json
+C:\Users\kauan.mcvquaresma\source\repos\SomaVetores\SomaVetores\bin\Debug\net6.0\SomaVetores.dll
+C:\Users\kauan.mcvquaresma\source\repos\SomaVetores\SomaVetores\bin\Debug\net6.0\SomaVetores.pdb
+C:\Users\kauan.mcvquaresma\source\repos\SomaVetores\SomaVetores\obj\Debug\net6.0\SomaVetores.dll
+C:\Users\kauan.mcvquaresma\source\repos\SomaVetores\SomaVetores\obj\Debug\net6.0\refint\SomaVetores.dll
+C:\Users\kauan.mcvquaresma\source\repos\SomaVetores\SomaVetores\obj\Debug\net6.0\SomaVetores.pdb
+C:\Users\kauan.mcvquaresma\source\repos\SomaVetores\SomaVetores\obj\Debug\net6.0\SomaVetores.genruntimeconfig.cache
+C:\Users\kauan.mcvquaresma\source\repos\SomaVetores\SomaVetores\obj\Debug\net6.0\ref\SomaVetores.dll

@@ -1,0 +1,15 @@
+C:\Users\kauan.mcvquaresma\source\repos\vetor de números pares\vetor de números pares\bin\Debug\net6.0\vetor de números pares.exe
+C:\Users\kauan.mcvquaresma\source\repos\vetor de números pares\vetor de números pares\bin\Debug\net6.0\vetor de números pares.deps.json
+C:\Users\kauan.mcvquaresma\source\repos\vetor de números pares\vetor de números pares\bin\Debug\net6.0\vetor de números pares.runtimeconfig.json
+C:\Users\kauan.mcvquaresma\source\repos\vetor de números pares\vetor de números pares\bin\Debug\net6.0\vetor de números pares.dll
+C:\Users\kauan.mcvquaresma\source\repos\vetor de números pares\vetor de números pares\bin\Debug\net6.0\vetor de números pares.pdb
+C:\Users\kauan.mcvquaresma\source\repos\vetor de números pares\vetor de números pares\obj\Debug\net6.0\vetor de números pares.csproj.AssemblyReference.cache
+C:\Users\kauan.mcvquaresma\source\repos\vetor de números pares\vetor de números pares\obj\Debug\net6.0\vetor de números pares.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kauan.mcvquaresma\source\repos\vetor de números pares\vetor de números pares\obj\Debug\net6.0\vetor de números pares.AssemblyInfoInputs.cache
+C:\Users\kauan.mcvquaresma\source\repos\vetor de números pares\vetor de números pares\obj\Debug\net6.0\vetor de números pares.AssemblyInfo.cs
+C:\Users\kauan.mcvquaresma\source\repos\vetor de números pares\vetor de números pares\obj\Debug\net6.0\vetor de números pares.csproj.CoreCompileInputs.cache
+C:\Users\kauan.mcvquaresma\source\repos\vetor de números pares\vetor de números pares\obj\Debug\net6.0\vetor de números pares.dll
+C:\Users\kauan.mcvquaresma\source\repos\vetor de números pares\vetor de números pares\obj\Debug\net6.0\refint\vetor de números pares.dll
+C:\Users\kauan.mcvquaresma\source\repos\vetor de números pares\vetor de números pares\obj\Debug\net6.0\vetor de números pares.pdb
+C:\Users\kauan.mcvquaresma\source\repos\vetor de números pares\vetor de números pares\obj\Debug\net6.0\vetor de números pares.genruntimeconfig.cache
+C:\Users\kauan.mcvquaresma\source\repos\vetor de números pares\vetor de números pares\obj\Debug\net6.0\ref\vetor de números pares.dll
