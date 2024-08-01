@@ -16,3 +16,21 @@ C:\Users\kauan.mcvquaresma\source\repos\calculadora areas\calculadora areas\obj\
 C:\Users\kauan.mcvquaresma\source\repos\calculadora areas\calculadora areas\obj\Debug\net6.0-windows\calculadora areas.genruntimeconfig.cache
 C:\Users\kauan.mcvquaresma\source\repos\calculadora areas\calculadora areas\obj\Debug\net6.0-windows\ref\calculadora areas.dll
 C:\Users\kauan.mcvquaresma\source\repos\calculadora areas\calculadora areas\obj\Debug\net6.0-windows\calculadora_areas.Properties.Resources.resources
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\bin\Debug\net6.0-windows\calculadora areas.exe
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\bin\Debug\net6.0-windows\calculadora areas.deps.json
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\bin\Debug\net6.0-windows\calculadora areas.runtimeconfig.json
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\bin\Debug\net6.0-windows\calculadora areas.dll
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\bin\Debug\net6.0-windows\calculadora areas.pdb
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\obj\Debug\net6.0-windows\calculadora areas.csproj.AssemblyReference.cache
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\obj\Debug\net6.0-windows\calculadora_areas.Form1.resources
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\obj\Debug\net6.0-windows\calculadora_areas.Properties.Resources.resources
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\obj\Debug\net6.0-windows\calculadora areas.csproj.GenerateResource.cache
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\obj\Debug\net6.0-windows\calculadora areas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\obj\Debug\net6.0-windows\calculadora areas.AssemblyInfoInputs.cache
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\obj\Debug\net6.0-windows\calculadora areas.AssemblyInfo.cs
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\obj\Debug\net6.0-windows\calculadora areas.csproj.CoreCompileInputs.cache
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\obj\Debug\net6.0-windows\calculadora areas.dll
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\obj\Debug\net6.0-windows\refint\calculadora areas.dll
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\obj\Debug\net6.0-windows\calculadora areas.pdb
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\obj\Debug\net6.0-windows\calculadora areas.genruntimeconfig.cache
+C:\Users\kauan.mcvquaresma\Desktop\gitlogica\logicaDeProgramacao\forms\calculadora areas\calculadora areas\obj\Debug\net6.0-windows\ref\calculadora areas.dll

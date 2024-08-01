@@ -168,10 +168,11 @@
             btnlimpa.TabIndex = 10;
             btnlimpa.Text = "limpa";
             btnlimpa.UseVisualStyleBackColor = true;
+            btnlimpa.Click += btnlimpa_Click;
             // 
             // btnfazer
             // 
-            btnfazer.Location = new Point(352, 513);
+            btnfazer.Location = new Point(354, 513);
             btnfazer.Name = "btnfazer";
             btnfazer.Size = new Size(98, 42);
             btnfazer.TabIndex = 11;
@@ -189,14 +190,14 @@
             // 
             // btnb2
             // 
-            btnb2.Location = new Point(195, 369);
+            btnb2.Location = new Point(191, 369);
             btnb2.Name = "btnb2";
             btnb2.Size = new Size(100, 23);
             btnb2.TabIndex = 13;
             // 
             // btnb3
             // 
-            btnb3.Location = new Point(350, 369);
+            btnb3.Location = new Point(337, 369);
             btnb3.Name = "btnb3";
             btnb3.Size = new Size(100, 23);
             btnb3.TabIndex = 14;
@@ -205,26 +206,29 @@
             // lblf1
             // 
             lblf1.AutoSize = true;
-            lblf1.Location = new Point(60, 340);
+            lblf1.Location = new Point(66, 339);
             lblf1.Name = "lblf1";
-            lblf1.Size = new Size(0, 15);
+            lblf1.Size = new Size(43, 15);
             lblf1.TabIndex = 15;
+            lblf1.Text = "texto 1";
             // 
             // lblf2
             // 
             lblf2.AutoSize = true;
-            lblf2.Location = new Point(226, 340);
+            lblf2.Location = new Point(232, 339);
             lblf2.Name = "lblf2";
-            lblf2.Size = new Size(0, 15);
+            lblf2.Size = new Size(43, 15);
             lblf2.TabIndex = 16;
+            lblf2.Text = "texto 2";
             // 
             // lblf3
             // 
             lblf3.AutoSize = true;
-            lblf3.Location = new Point(386, 340);
+            lblf3.Location = new Point(392, 339);
             lblf3.Name = "lblf3";
-            lblf3.Size = new Size(0, 15);
+            lblf3.Size = new Size(43, 15);
             lblf3.TabIndex = 17;
+            lblf3.Text = "texto 3";
             // 
             // lblex
             // 
@@ -240,7 +244,7 @@
             // 
             lblex2.AutoSize = true;
             lblex2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            lblex2.Location = new Point(370, 419);
+            lblex2.Location = new Point(354, 419);
             lblex2.Name = "lblex2";
             lblex2.Size = new Size(82, 21);
             lblex2.TabIndex = 19;
@@ -266,7 +270,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(511, 567);
+            AutoSize = true;
+            ClientSize = new Size(498, 567);
             Controls.Add(lblresult);
             Controls.Add(lblexp);
             Controls.Add(lblex2);

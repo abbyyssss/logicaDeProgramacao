@@ -20,6 +20,12 @@
                 btnb3.Visible = false;
                 lblf3.Text = "";
                 btnb1.Focus();
+                // Reset form color
+                this.BackColor = SystemColors.Control;
+                lblFormula.ForeColor = SystemColors.ControlText;
+                lblf1.ForeColor = SystemColors.ControlText;
+                lblf2.ForeColor = SystemColors.ControlText;
+                lblf3.ForeColor = SystemColors.ControlText;
             }
         }
 
@@ -36,12 +42,13 @@
                 btnb1.Visible = false;
                 btnb3.Visible = false;
                 btnb2.Focus();
+                // Change form color to green
+                this.BackColor = Color.Green;
+                lblFormula.ForeColor = Color.White;
+                lblf1.ForeColor = Color.White;
+                lblf2.ForeColor = Color.White;
+                lblf3.ForeColor = Color.White;
             }
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void RadioRetangulo_CheckedChanged(object sender, EventArgs e)
@@ -57,6 +64,12 @@
                 btnb1.Visible = true;
                 btnb3.Visible = false;
                 btnb1.Focus();
+                // Reset form color
+                this.BackColor = SystemColors.Control;
+                lblFormula.ForeColor = SystemColors.ControlText;
+                lblf1.ForeColor = SystemColors.ControlText;
+                lblf2.ForeColor = SystemColors.ControlText;
+                lblf3.ForeColor = SystemColors.ControlText;
             }
         }
 
@@ -73,6 +86,12 @@
                 btnb2.Visible = true;
                 btnb3.Visible = false;
                 btnb2.Focus();
+                // Reset form color
+                this.BackColor = SystemColors.Control;
+                lblFormula.ForeColor = SystemColors.ControlText;
+                lblf1.ForeColor = SystemColors.ControlText;
+                lblf2.ForeColor = SystemColors.ControlText;
+                lblf3.ForeColor = SystemColors.ControlText;
             }
         }
 
@@ -89,65 +108,99 @@
                 btnb1.Visible = true;
                 btnb3.Visible = true;
                 btnb1.Focus();
+                // Change form color to cyan blue
+                this.BackColor = Color.Cyan;
+                lblFormula.ForeColor = Color.Black;
+                lblf1.ForeColor = Color.Black;
+                lblf2.ForeColor = Color.Black;
+                lblf3.ForeColor = Color.Black;
             }
         }
 
         private void lblFormula_Click(object sender, EventArgs e)
         {
-
+            // Optional event handler for lblFormula click
         }
 
         private void btnfazer_Click(object sender, EventArgs e)
         {
-            double ladoum = 0;
-            double ladodois = 0;
-            double seila = 0;
+            double lado1 = 0;
+            double lado2 = 0;
+            double lado3 = 0;
             double resultado;
 
+            // Validação de entrada
             if (RadioTrapezio.Checked)
             {
-                ladoum = double.Parse(btnb1.Text); // base maior
-                ladodois = double.Parse(btnb2.Text); // base menor
-                seila = double.Parse(btnb3.Text); // altura
-                resultado = (ladoum + ladodois) * seila / 2;
-                lblresult.Text = resultado.ToString();
-                lblexp.Text = $"(({ladoum} + {ladodois}) * {seila}) / 2";
-                btnb1.Focus();
+                if (double.TryParse(btnb1.Text, out lado1) &&
+                    double.TryParse(btnb2.Text, out lado2) &&
+                    double.TryParse(btnb3.Text, out lado3))
+                {
+                    resultado = Math.Round((lado1 + lado2) * lado3 / 2, 2);
+                    lblresult.Text = resultado.ToString();
+                    lblexp.Text = $"(({lado1} + {lado2}) * {lado3}) / 2";
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, insira valores numéricos válidos.");
+                }
             }
             else if (RadioTriangulo.Checked)
             {
-                ladoum = double.Parse(btnb1.Text); // base
-                ladodois = double.Parse(btnb2.Text); // altura
-                resultado = (ladoum * ladodois) / 2;
-                lblresult.Text = resultado.ToString();
-                lblexp.Text = $"{ladoum} * {ladodois} / 2";
-                btnb1.Focus();
+                if (double.TryParse(btnb1.Text, out lado1) &&
+                    double.TryParse(btnb2.Text, out lado2))
+                {
+                    resultado = Math.Round((lado1 * lado2) / 2, 2);
+                    lblresult.Text = resultado.ToString();
+                    lblexp.Text = $"{lado1} * {lado2} / 2";
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, insira valores numéricos válidos.");
+                }
             }
             else if (RadioQuadrado.Checked)
             {
-                ladoum = double.Parse(btnb2.Text); // lado
-                resultado = ladoum * ladoum;
-                lblresult.Text = resultado.ToString();
-                lblexp.Text = $"{ladoum}²";
-                btnb2.Focus();
+                if (double.TryParse(btnb2.Text, out lado1))
+                {
+                    resultado = Math.Round(lado1 * lado1, 2);
+                    lblresult.Text = resultado.ToString();
+                    lblexp.Text = $"{lado1}²";
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, insira valores numéricos válidos.");
+                }
             }
             else if (RadioRetangulo.Checked)
             {
-                ladoum = double.Parse(btnb1.Text); // base
-                ladodois = double.Parse(btnb2.Text); // altura
-                resultado = ladoum * ladodois;
-                lblresult.Text = resultado.ToString();
-                lblexp.Text = $"{ladoum} * {ladodois}";
-                btnb1.Focus();
+                if (double.TryParse(btnb1.Text, out lado1) &&
+                    double.TryParse(btnb2.Text, out lado2))
+                {
+                    resultado = Math.Round(lado1 * lado2, 2);
+                    lblresult.Text = resultado.ToString();
+                    lblexp.Text = $"{lado1} * {lado2}";
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, insira valores numéricos válidos.");
+                }
             }
             else if (RadioCirculo.Checked)
             {
-                ladodois = double.Parse(btnb2.Text); // raio
-                resultado = Math.PI * ladodois * ladodois;
-                lblresult.Text = Math.Round(resultado, 2).ToString(); // Arredonda o resultado para 2 casas decimais
-                lblexp.Text = $"π * {ladodois}²";
-                btnb2.Focus();
+                if (double.TryParse(btnb2.Text, out lado2))
+                {
+                    resultado = Math.Round(Math.PI * lado2 * lado2, 2);
+                    lblresult.Text = resultado.ToString();
+                    lblexp.Text = $"π * {lado2}²";
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, insira valores numéricos válidos.");
+                }
             }
+
+            // Limpar campos
             btnb1.Text = "";
             btnb2.Text = "";
             btnb3.Text = "";
@@ -155,7 +208,42 @@
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        private void btnlimpa_Click(object sender, EventArgs e)
+        {
+            // Desmarcar todos os RadioButtons
+            RadioTriangulo.Checked = false;
+            RadioQuadrado.Checked = false;
+            RadioRetangulo.Checked = false;
+            RadioCirculo.Checked = false;
+            RadioTrapezio.Checked = false;
+
+            // Limpar texto dos TextBoxes ou Labels
+            btnb1.Text = "";
+            btnb2.Text = "";
+            btnb3.Text = "";
+
+            // Restaurar texto dos Labels
+            lblFormula.Text = "";
+            lblf1.Text = "";
+            lblf2.Text = "";
+            lblf3.Text = "";
+            lblresult.Text = "";
+            lblexp.Text = "";
+
+            // Ocultar ou mostrar botões conforme necessário
+            btnb1.Visible = false;
+            btnb2.Visible = false;
+            btnb3.Visible = false;
+
+            // resetar cores
+            this.BackColor = SystemColors.Control;
+            lblFormula.ForeColor = SystemColors.ControlText;
+            lblf1.ForeColor = SystemColors.ControlText;
+            lblf2.ForeColor = SystemColors.ControlText;
+            lblf3.ForeColor = SystemColors.ControlText;
         }
     }
 }
