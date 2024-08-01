@@ -162,7 +162,7 @@
             // 
             // btnlimpa
             // 
-            btnlimpa.Location = new Point(31, 513);
+            btnlimpa.Location = new Point(12, 513);
             btnlimpa.Name = "btnlimpa";
             btnlimpa.Size = new Size(97, 42);
             btnlimpa.TabIndex = 10;
@@ -172,7 +172,7 @@
             // 
             // btnfazer
             // 
-            btnfazer.Location = new Point(354, 513);
+            btnfazer.Location = new Point(388, 513);
             btnfazer.Name = "btnfazer";
             btnfazer.Size = new Size(98, 42);
             btnfazer.TabIndex = 11;
@@ -182,7 +182,7 @@
             // 
             // btnb1
             // 
-            btnb1.Location = new Point(31, 369);
+            btnb1.Location = new Point(117, 369);
             btnb1.Name = "btnb1";
             btnb1.Size = new Size(100, 23);
             btnb1.TabIndex = 12;
@@ -190,14 +190,14 @@
             // 
             // btnb2
             // 
-            btnb2.Location = new Point(191, 369);
+            btnb2.Location = new Point(182, 513);
             btnb2.Name = "btnb2";
             btnb2.Size = new Size(100, 23);
             btnb2.TabIndex = 13;
             // 
             // btnb3
             // 
-            btnb3.Location = new Point(337, 369);
+            btnb3.Location = new Point(282, 369);
             btnb3.Name = "btnb3";
             btnb3.Size = new Size(100, 23);
             btnb3.TabIndex = 14;
@@ -206,7 +206,7 @@
             // lblf1
             // 
             lblf1.AutoSize = true;
-            lblf1.Location = new Point(66, 339);
+            lblf1.Location = new Point(144, 341);
             lblf1.Name = "lblf1";
             lblf1.Size = new Size(43, 15);
             lblf1.TabIndex = 15;
@@ -215,7 +215,7 @@
             // lblf2
             // 
             lblf2.AutoSize = true;
-            lblf2.Location = new Point(232, 339);
+            lblf2.Location = new Point(207, 482);
             lblf2.Name = "lblf2";
             lblf2.Size = new Size(43, 15);
             lblf2.TabIndex = 16;
@@ -224,7 +224,7 @@
             // lblf3
             // 
             lblf3.AutoSize = true;
-            lblf3.Location = new Point(392, 339);
+            lblf3.Location = new Point(307, 341);
             lblf3.Name = "lblf3";
             lblf3.Size = new Size(43, 15);
             lblf3.TabIndex = 17;

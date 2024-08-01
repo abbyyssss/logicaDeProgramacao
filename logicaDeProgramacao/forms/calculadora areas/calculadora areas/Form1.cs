@@ -26,6 +26,10 @@
                 lblf1.ForeColor = SystemColors.ControlText;
                 lblf2.ForeColor = SystemColors.ControlText;
                 lblf3.ForeColor = SystemColors.ControlText;
+                lblf1.Location = new Point(144, 341);
+                btnb1.Location = new Point(117, 369);
+                lblf2.Location = new Point(307, 341);
+                btnb2.Location = new Point(282, 369);
             }
         }
 
@@ -48,6 +52,8 @@
                 lblf1.ForeColor = Color.White;
                 lblf2.ForeColor = Color.White;
                 lblf3.ForeColor = Color.White;
+                btnb2.Location = new Point(200, 369);
+                lblf2.Location = new Point(230, 341);
             }
         }
 
@@ -70,6 +76,10 @@
                 lblf1.ForeColor = SystemColors.ControlText;
                 lblf2.ForeColor = SystemColors.ControlText;
                 lblf3.ForeColor = SystemColors.ControlText;
+                lblf1.Location = new Point(144, 341);
+                btnb1.Location = new Point(117, 369);
+                lblf2.Location = new Point(307, 341);
+                btnb2.Location = new Point(282, 369);
             }
         }
 
@@ -92,6 +102,8 @@
                 lblf1.ForeColor = SystemColors.ControlText;
                 lblf2.ForeColor = SystemColors.ControlText;
                 lblf3.ForeColor = SystemColors.ControlText;
+                btnb2.Location = new Point(200, 369);
+                lblf2.Location = new Point(230, 341);
             }
         }
 
@@ -114,6 +126,12 @@
                 lblf1.ForeColor = Color.Black;
                 lblf2.ForeColor = Color.Black;
                 lblf3.ForeColor = Color.Black;
+                btnb2.Location = new Point(200, 369);
+                lblf2.Location = new Point(230, 341);
+                btnb3.Location = new Point(386, 369);
+                btnb1.Location = new Point(12, 369);
+                lblf1.Location = new Point(42, 341);
+                lblf3.Location = new Point(415, 341);
             }
         }
 
@@ -208,7 +226,7 @@
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void btnlimpa_Click(object sender, EventArgs e)
