@@ -1,0 +1,15 @@
+C:\Users\kauan.mcvquaresma\source\repos\consolemttempodps\consolemttempodps\obj\Debug\net6.0\consolemttempodps.csproj.AssemblyReference.cache
+C:\Users\kauan.mcvquaresma\source\repos\consolemttempodps\consolemttempodps\obj\Debug\net6.0\consolemttempodps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kauan.mcvquaresma\source\repos\consolemttempodps\consolemttempodps\obj\Debug\net6.0\consolemttempodps.AssemblyInfoInputs.cache
+C:\Users\kauan.mcvquaresma\source\repos\consolemttempodps\consolemttempodps\obj\Debug\net6.0\consolemttempodps.AssemblyInfo.cs
+C:\Users\kauan.mcvquaresma\source\repos\consolemttempodps\consolemttempodps\obj\Debug\net6.0\consolemttempodps.csproj.CoreCompileInputs.cache
+C:\Users\kauan.mcvquaresma\source\repos\consolemttempodps\consolemttempodps\bin\Debug\net6.0\consolemttempodps.exe
+C:\Users\kauan.mcvquaresma\source\repos\consolemttempodps\consolemttempodps\bin\Debug\net6.0\consolemttempodps.deps.json
+C:\Users\kauan.mcvquaresma\source\repos\consolemttempodps\consolemttempodps\bin\Debug\net6.0\consolemttempodps.runtimeconfig.json
+C:\Users\kauan.mcvquaresma\source\repos\consolemttempodps\consolemttempodps\bin\Debug\net6.0\consolemttempodps.dll
+C:\Users\kauan.mcvquaresma\source\repos\consolemttempodps\consolemttempodps\bin\Debug\net6.0\consolemttempodps.pdb
+C:\Users\kauan.mcvquaresma\source\repos\consolemttempodps\consolemttempodps\obj\Debug\net6.0\consolemttempodps.dll
+C:\Users\kauan.mcvquaresma\source\repos\consolemttempodps\consolemttempodps\obj\Debug\net6.0\refint\consolemttempodps.dll
+C:\Users\kauan.mcvquaresma\source\repos\consolemttempodps\consolemttempodps\obj\Debug\net6.0\consolemttempodps.pdb
+C:\Users\kauan.mcvquaresma\source\repos\consolemttempodps\consolemttempodps\obj\Debug\net6.0\consolemttempodps.genruntimeconfig.cache
+C:\Users\kauan.mcvquaresma\source\repos\consolemttempodps\consolemttempodps\obj\Debug\net6.0\ref\consolemttempodps.dll
