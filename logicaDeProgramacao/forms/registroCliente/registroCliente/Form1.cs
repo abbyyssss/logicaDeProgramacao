@@ -107,5 +107,75 @@ namespace registroCliente
                 return "O"; // Valor para "Outro"
             return null; // Nenhuma opção selecionada
         }
+
+        private void btnExcluirCliente_Click(object sender, EventArgs e)
+        {
+            // Coleta o código do cliente a ser excluído
+            string codigoCliente = txtCodigoCliente.Text.Trim();
+
+            // Validação do código do cliente
+            if (string.IsNullOrEmpty(codigoCliente))
+            {
+                MessageBox.Show("Por favor, informe o código do cliente.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Conexão com o banco de dados
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    string query = "DELETE FROM clientes WHERE Cliente = @Cliente";
+
+                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Cliente", codigoCliente);
+
+                        // Executa o comando
+                        int result = cmd.ExecuteNonQuery();
+
+                        // Verifica se o registro foi excluído com sucesso
+                        if (result > 0)
+                        {
+                            MessageBox.Show("Cliente excluído com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+                            MessageBox.Show("Nenhum cliente encontrado com esse código.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                }
+                catch (MySqlException ex)
+                {
+                    MessageBox.Show("Erro ao conectar ao banco de dados: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        private void btnExcluirTodos_Click(object sender, EventArgs e)
+        {
+            // Conexão com o banco de dados
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    string query = "DELETE FROM clientes";
+
+                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                    {
+                        // Executa o comando
+                        int result = cmd.ExecuteNonQuery();
+
+                        MessageBox.Show($"{result} cliente(s) excluído(s) com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+                catch (MySqlException ex)
+                {
+                    MessageBox.Show("Erro ao conectar ao banco de dados: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
     }
 }

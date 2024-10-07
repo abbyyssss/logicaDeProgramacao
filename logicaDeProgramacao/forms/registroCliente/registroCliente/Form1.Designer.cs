@@ -45,6 +45,10 @@
             btnCadastrar = new Button();
             label6 = new Label();
             cmbUF = new ComboBox();
+            btnExcluirTodos = new Button();
+            btnExcluirCliente = new Button();
+            txtCodigoCliente = new TextBox();
+            label7 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -60,12 +64,12 @@
             // 
             txtNome.Location = new Point(55, 4);
             txtNome.Name = "txtNome";
-            txtNome.Size = new Size(100, 23);
+            txtNome.Size = new Size(386, 23);
             txtNome.TabIndex = 1;
             // 
             // mskCPF
             // 
-            mskCPF.Location = new Point(55, 43);
+            mskCPF.Location = new Point(55, 36);
             mskCPF.Mask = "999,999,999-99";
             mskCPF.Name = "mskCPF";
             mskCPF.Size = new Size(100, 23);
@@ -74,7 +78,7 @@
             // CPF
             // 
             CPF.AutoSize = true;
-            CPF.Location = new Point(11, 51);
+            CPF.Location = new Point(12, 39);
             CPF.Name = "CPF";
             CPF.Size = new Size(28, 15);
             CPF.TabIndex = 3;
@@ -100,7 +104,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(11, 109);
+            label3.Location = new Point(447, 9);
             label3.Name = "label3";
             label3.Size = new Size(27, 15);
             label3.TabIndex = 7;
@@ -108,7 +112,7 @@
             // 
             // mskCelular
             // 
-            mskCelular.Location = new Point(55, 101);
+            mskCelular.Location = new Point(480, 4);
             mskCelular.Mask = "(99) 99999-9999";
             mskCelular.Name = "mskCelular";
             mskCelular.Size = new Size(100, 23);
@@ -117,7 +121,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(11, 138);
+            label4.Location = new Point(12, 252);
             label4.Name = "label4";
             label4.Size = new Size(69, 15);
             label4.TabIndex = 9;
@@ -125,7 +129,7 @@
             // 
             // mskDataDeNascimento
             // 
-            mskDataDeNascimento.Location = new Point(86, 135);
+            mskDataDeNascimento.Location = new Point(87, 249);
             mskDataDeNascimento.Mask = "99/99/9999";
             mskDataDeNascimento.Name = "mskDataDeNascimento";
             mskDataDeNascimento.Size = new Size(100, 23);
@@ -134,7 +138,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(15, 179);
+            label5.Location = new Point(22, 281);
             label5.Name = "label5";
             label5.Size = new Size(31, 15);
             label5.TabIndex = 10;
@@ -143,7 +147,7 @@
             // rdbMasculino
             // 
             rdbMasculino.AutoSize = true;
-            rdbMasculino.Location = new Point(74, 178);
+            rdbMasculino.Location = new Point(217, 279);
             rdbMasculino.Name = "rdbMasculino";
             rdbMasculino.Size = new Size(80, 19);
             rdbMasculino.TabIndex = 11;
@@ -154,7 +158,7 @@
             // rdbFeminino
             // 
             rdbFeminino.AutoSize = true;
-            rdbFeminino.Location = new Point(74, 203);
+            rdbFeminino.Location = new Point(136, 279);
             rdbFeminino.Name = "rdbFeminino";
             rdbFeminino.Size = new Size(75, 19);
             rdbFeminino.TabIndex = 12;
@@ -165,7 +169,7 @@
             // rdbOutro
             // 
             rdbOutro.AutoSize = true;
-            rdbOutro.Location = new Point(74, 228);
+            rdbOutro.Location = new Point(74, 279);
             rdbOutro.Name = "rdbOutro";
             rdbOutro.Size = new Size(56, 19);
             rdbOutro.TabIndex = 13;
@@ -175,9 +179,9 @@
             // 
             // btnCadastrar
             // 
-            btnCadastrar.Location = new Point(466, 7);
+            btnCadastrar.Location = new Point(209, 310);
             btnCadastrar.Name = "btnCadastrar";
-            btnCadastrar.Size = new Size(96, 99);
+            btnCadastrar.Size = new Size(294, 99);
             btnCadastrar.TabIndex = 14;
             btnCadastrar.Text = "Cadastrar";
             btnCadastrar.UseVisualStyleBackColor = true;
@@ -186,7 +190,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(209, 7);
+            label6.Location = new Point(391, 39);
             label6.Name = "label6";
             label6.Size = new Size(83, 15);
             label6.TabIndex = 15;
@@ -195,16 +199,56 @@
             // cmbUF
             // 
             cmbUF.FormattingEnabled = true;
-            cmbUF.Location = new Point(298, 4);
+            cmbUF.Location = new Point(480, 36);
             cmbUF.Name = "cmbUF";
             cmbUF.Size = new Size(121, 23);
             cmbUF.TabIndex = 16;
+            // 
+            // btnExcluirTodos
+            // 
+            btnExcluirTodos.Location = new Point(509, 310);
+            btnExcluirTodos.Name = "btnExcluirTodos";
+            btnExcluirTodos.Size = new Size(193, 99);
+            btnExcluirTodos.TabIndex = 17;
+            btnExcluirTodos.Text = "excluir todos";
+            btnExcluirTodos.UseVisualStyleBackColor = true;
+            btnExcluirTodos.Click += btnExcluirTodos_Click;
+            // 
+            // btnExcluirCliente
+            // 
+            btnExcluirCliente.Location = new Point(11, 310);
+            btnExcluirCliente.Name = "btnExcluirCliente";
+            btnExcluirCliente.Size = new Size(192, 99);
+            btnExcluirCliente.TabIndex = 18;
+            btnExcluirCliente.Text = "excluir cliente";
+            btnExcluirCliente.UseVisualStyleBackColor = true;
+            btnExcluirCliente.Click += btnExcluirCliente_Click;
+            // 
+            // txtCodigoCliente
+            // 
+            txtCodigoCliente.Location = new Point(268, 36);
+            txtCodigoCliente.Name = "txtCodigoCliente";
+            txtCodigoCliente.Size = new Size(100, 23);
+            txtCodigoCliente.TabIndex = 19;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(163, 39);
+            label7.Name = "label7";
+            label7.Size = new Size(99, 15);
+            label7.TabIndex = 20;
+            label7.Text = "código do cliente";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(714, 305);
+            ClientSize = new Size(714, 412);
+            Controls.Add(label7);
+            Controls.Add(txtCodigoCliente);
+            Controls.Add(btnExcluirCliente);
+            Controls.Add(btnExcluirTodos);
             Controls.Add(cmbUF);
             Controls.Add(label6);
             Controls.Add(btnCadastrar);
@@ -248,5 +292,9 @@
         private Button btnCadastrar;
         private Label label6;
         private ComboBox cmbUF;
+        private Button btnExcluirTodos;
+        private Button btnExcluirCliente;
+        private TextBox txtCodigoCliente;
+        private Label label7;
     }
 }
