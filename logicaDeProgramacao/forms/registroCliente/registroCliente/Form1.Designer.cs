@@ -49,6 +49,11 @@
             btnExcluirCliente = new Button();
             txtCodigoCliente = new TextBox();
             label7 = new Label();
+            btnBuscar = new Button();
+            dataGridViewClientes = new DataGridView();
+            btnCarregar = new Button();
+            btnAtualizar = new Button();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewClientes).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -190,7 +195,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(391, 39);
+            label6.Location = new Point(214, 39);
             label6.Name = "label6";
             label6.Size = new Size(83, 15);
             label6.TabIndex = 15;
@@ -199,7 +204,7 @@
             // cmbUF
             // 
             cmbUF.FormattingEnabled = true;
-            cmbUF.Location = new Point(480, 36);
+            cmbUF.Location = new Point(308, 36);
             cmbUF.Name = "cmbUF";
             cmbUF.Size = new Size(121, 23);
             cmbUF.TabIndex = 16;
@@ -226,7 +231,7 @@
             // 
             // txtCodigoCliente
             // 
-            txtCodigoCliente.Location = new Point(268, 36);
+            txtCodigoCliente.Location = new Point(111, 125);
             txtCodigoCliente.Name = "txtCodigoCliente";
             txtCodigoCliente.Size = new Size(100, 23);
             txtCodigoCliente.TabIndex = 19;
@@ -234,17 +239,62 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(163, 39);
+            label7.Location = new Point(6, 128);
             label7.Name = "label7";
             label7.Size = new Size(99, 15);
             label7.TabIndex = 20;
             label7.Text = "código do cliente";
             // 
+            // btnBuscar
+            // 
+            btnBuscar.Location = new Point(708, 310);
+            btnBuscar.Name = "btnBuscar";
+            btnBuscar.Size = new Size(163, 99);
+            btnBuscar.TabIndex = 21;
+            btnBuscar.Text = "buscar";
+            btnBuscar.UseVisualStyleBackColor = true;
+            btnBuscar.Click += btnBuscar_Click;
+            // 
+            // dataGridViewClientes
+            // 
+            dataGridViewClientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewClientes.Location = new Point(524, 36);
+            dataGridViewClientes.Name = "dataGridViewClientes";
+            dataGridViewClientes.RowTemplate.Height = 25;
+            dataGridViewClientes.Size = new Size(336, 150);
+            dataGridViewClientes.TabIndex = 22;
+            dataGridViewClientes.Visible = false;
+            dataGridViewClientes.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // btnCarregar
+            // 
+            btnCarregar.Location = new Point(524, 192);
+            btnCarregar.Name = "btnCarregar";
+            btnCarregar.Size = new Size(257, 46);
+            btnCarregar.TabIndex = 23;
+            btnCarregar.Text = "Load Data";
+            btnCarregar.UseVisualStyleBackColor = true;
+            btnCarregar.Click += btnCarregar_Click;
+            // 
+            // btnAtualizar
+            // 
+            btnAtualizar.Location = new Point(784, 205);
+            btnAtualizar.Name = "btnAtualizar";
+            btnAtualizar.Size = new Size(87, 99);
+            btnAtualizar.TabIndex = 24;
+            btnAtualizar.Text = "atualizar";
+            btnAtualizar.UseVisualStyleBackColor = true;
+            btnAtualizar.Click += btnAtualizar_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(714, 412);
+            ClientSize = new Size(871, 407);
+            Controls.Add(btnAtualizar);
+            Controls.Add(btnCarregar);
+            Controls.Add(dataGridViewClientes);
+            Controls.Add(btnBuscar);
             Controls.Add(label7);
             Controls.Add(txtCodigoCliente);
             Controls.Add(btnExcluirCliente);
@@ -269,6 +319,7 @@
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridViewClientes).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -296,5 +347,9 @@
         private Button btnExcluirCliente;
         private TextBox txtCodigoCliente;
         private Label label7;
+        private Button btnBuscar;
+        private DataGridView dataGridViewClientes;
+        private Button btnCarregar;
+        private Button btnAtualizar;
     }
 }
